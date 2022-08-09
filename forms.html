@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Basic form design using Html</title>
+    </head>
+    <body>
+        <h1>Basic Bio data</h1>
+        <h3>Form design</h3>
+        <form action = '#'>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <p>
+                    <label>First name : <input name = "firstname"/></label>
+                </p>
+                <p>
+                    <label>Last Name : <input name = "lastname"/></label>
+                </p>
+                <p>
+                    Gender:
+                    <label><input type="radio" name="gender" value="female"/> Female</label>
+                    <label><input type="radio" name="gender" value="male"/> Male</label>
+                </p>
+                <p>
+                    <label>Email : <input type = "email" name="email"/></label>
+                </p>
+                <p>
+                    <label>Date of Birth : <input type="date" name="birthdate"/></label>
+                </p>
+                <p>
+                    <label>Address:
+                        <br/>
+                        <textarea name="address" cols="30" rows="3"></textarea>
+                    </label>
+                </p>
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
